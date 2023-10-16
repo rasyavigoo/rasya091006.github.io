@@ -1,0 +1,16 @@
+
+.container {
+    display: flex;
+    height: 400px;
+
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background-color: yellow;
+}
+
+.container > div {
+    margin: 12px;
+    background-color: salmon;
+    padding: 20px;
+}
